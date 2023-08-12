@@ -18,7 +18,7 @@ function addData() {
   //Write your code here, just console.log
   let employee = {id:4,name:"susan",age:20,profession:"intern"};
   arr.push(employee);
-  console.log(arr);
+  consoleArr();
 }
 
 function removeAdmin() {
@@ -30,7 +30,7 @@ function removeAdmin() {
     }
   }
 
-  console.log(arr);
+  consoleArr();
 }
 
 function concatenateArray() {
@@ -43,7 +43,7 @@ function concatenateArray() {
 
 arr.push(...newEmployees);
 
-console.log(arr);
+consoleArr();
 }
 
 // Here is an example of how functions work,
