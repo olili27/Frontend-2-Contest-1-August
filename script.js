@@ -41,6 +41,7 @@ function concatenateArray() {
   { id: 7, name: 'kane', age: 19, profession: 'lead' },
 ];
 arr.push(...newEmployees);
+console.log(arr);
 }
 
 // Here is an example of how functions work,
