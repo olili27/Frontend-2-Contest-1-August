@@ -18,6 +18,7 @@ function addData() {
   //Write your code here, just console.log
   let employee = {id:4,name:"susan",age:20,profession:"intern"};
   arr.push(employee);
+  console.log(arr);
 }
 
 function removeAdmin() {
@@ -28,6 +29,8 @@ function removeAdmin() {
       arr.splice(index, 1);
     }
   }
+
+  console.log(arr);
 }
 
 function concatenateArray() {
