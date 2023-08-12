@@ -40,7 +40,9 @@ function concatenateArray() {
   { id: 6, name: 'tony', age: 20, profession: 'designer' },
   { id: 7, name: 'kane', age: 19, profession: 'lead' },
 ];
+
 arr.push(...newEmployees);
+
 console.log(arr);
 }
 
