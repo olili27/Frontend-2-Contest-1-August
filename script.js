@@ -9,18 +9,35 @@ let arr = [
 
 function PrintDeveloper() {
   //Write your code here , just console.log
+  for(let employee of arr) {
+    if(employee.profession == "developer") console.log(employee);
+  }
 }
 
 function addData() {
   //Write your code here, just console.log
+  let employee = {id:4,name:"susan",age:20,profession:"intern"};
+  arr.push(employee);
 }
 
 function removeAdmin() {
   //Write your code here, just console.log
+  for(let employee of arr) {
+    if(employee.profession == "admin") {
+      let index = arr.indexOf(employee);
+      arr.splice(index, 1);
+    }
+  }
 }
 
 function concatenateArray() {
   //Write your code here, just console.log
+  let newEmployees = [
+  { id: 5, name: 'tim', age: 18, profession: 'coder' },
+  { id: 6, name: 'tony', age: 20, profession: 'designer' },
+  { id: 7, name: 'kane', age: 19, profession: 'lead' },
+];
+arr.push(...newEmployees);
 }
 
 // Here is an example of how functions work,
